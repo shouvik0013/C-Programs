@@ -8,7 +8,7 @@ int main()
     char target[30] = "Shouvik"; // here we are taking more memory because we are adding more characters to it
     char *p;
     int i=0;
-
+    
     strcat(target, source);
     puts(target);
 
